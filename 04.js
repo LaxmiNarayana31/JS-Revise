@@ -26,3 +26,14 @@ do {
 fruits.forEach(function (fruit) {
   console.log(fruit);
 });
+
+// For of loop
+for (let i of fruits) {
+  console.log(i);
+}
+
+// For in loop -> It give array index
+for (let i in fruits) {
+  console.log(i);
+  console.log(fruits[i]);
+}
