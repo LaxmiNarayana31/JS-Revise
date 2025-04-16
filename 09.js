@@ -34,7 +34,7 @@ const obj2 = {
 };
 ``;
 
-const newObject = { ...obj1, ...obj2 }; 
+const newObject = { ...obj1, ...obj2 };
 
 // It only prints second object only because keys are overriding the first object
 console.log(newObject);
@@ -46,5 +46,5 @@ const obj3 = {
   profession: "Software Engineer",
 };
 
-const newObject2 = { ...obj1, ...obj3 }; 
+const newObject2 = { ...obj1, ...obj3 };
 console.log(newObject2);
