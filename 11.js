@@ -86,3 +86,15 @@ function sum(...numbers) {
 console.log(sum(1, 2, 3, 4, 5));
 console.log(sum(10, 20));
 console.log(sum(1, 2, 3, 4, 5, 6, 7));
+
+// Parameter destructuring - It allows you to extract values from an object or array and assign them to variables in a single step
+const myObject = {
+  name: "Shiva",
+  age: 25,
+  city: "BBSR",
+};
+
+function printDetails({ name, age, city }) {
+  console.log(`Name: ${name}, Age: ${age}, City: ${city}`);
+}
+printDetails(myObject);
